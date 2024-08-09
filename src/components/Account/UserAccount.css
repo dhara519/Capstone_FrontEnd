@@ -1,0 +1,44 @@
+.account-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accountPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.account-button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.account-button:hover {
+  background-color: #e91e63;
+}
+
+.account-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.account-information {
+  flex: 2;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-size: large;
+  font-family: "Playfair Display", serif;
+}

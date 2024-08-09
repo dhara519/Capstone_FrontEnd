@@ -1,0 +1,210 @@
+.nearby {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+  margin: 40px auto; /* Center the element horizontally */
+  padding: 15px 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  text-align: center; /* Fix the typo 'cent' */
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-container-homepage {
+  width: 100%;
+  height: 50vh; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-image-homepage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel-text-container-homepage {
+  position: absolute;
+  top: 30px; /* Adjust as needed */
+  left: 30px; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.carousel-text-homepage {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.carousel-button-homepage:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+/* YELP Carousel container */
+.yelp-search-container {
+  width: 100%;
+  padding: 50px; /* Adjust padding */
+  background-color: #e3facf;
+  padding: 20px;
+}
+
+/* YELP Carousel container */
+.carousel {
+  width: 90%;
+  margin: 10px; /* Center horizontally */
+  position: relative; /* Ensure it's positioned correctly in its container */
+  top: 80%;
+  transform: translateY(-50%);
+}
+
+.restaurant-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+.yelp-search-container {
+  width: 100%;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+.restaurant-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.restaurant-card h2 {
+  margin: 10px 0;
+  font-size: 1.2em; /* Reduce font size */
+  color: #333;
+}
+
+.restaurant-card p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.9em; /* Reduce font size */
+}
+
+.restaurant-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.restaurant-card a:hover {
+  text-decoration: underline;
+}
+
+/* About Section */
+.about {
+  padding: 30px;
+  background-color: #fff;
+  width: 100vw;
+}
+
+.about-content {
+  width: 100%;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-family: "Playfair Display", serif;
+  margin-left: 200px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #333;
+  width: 100%;
+}
+
+.about-content p {
+  /* border: 2px solid rgb(126, 125, 125); */
+  margin-left: 200px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px 50px 0px;
+  background-color: #e3facf;
+  width: 100vw;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: #d81b60;
+}

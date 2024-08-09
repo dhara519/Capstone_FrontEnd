@@ -1,0 +1,101 @@
+.settings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-column {
+  flex: 1;
+  padding: 18%;
+  height: 400px;
+  background-color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+.floating-label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 0 4px;
+  color: #aaa;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  font-family: "Playfair Display", serif;
+}
+
+.update-button {
+  background-color: #e91e63;
+  font-family: "Playfair Display", serif;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.account-tittle {
+  font-size: 14;
+  font-family: "Playfair Display", serif;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ccc;
+}
+
+.form-column {
+  flex: 2;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* .settings-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+} */
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.floating-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button:hover {
+  background-color: #e91e63;
+}

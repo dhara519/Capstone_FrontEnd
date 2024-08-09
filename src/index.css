@@ -1,0 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  background-color: #e3facf;
+  display: flex;
+  flex-direction: column;
+}

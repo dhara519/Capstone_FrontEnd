@@ -1,0 +1,38 @@
+.restaurant-list {
+  width: 25vw;
+  padding: 10px;
+  background-color: #b6ec97;
+  overflow-y: auto;
+  height: 120vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+.body {
+  background-color: #b6ec97;
+}
+
+.restaurant-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.restaurant-item:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.restaurant-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.restaurant-item p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  padding-bottom: 1em;
+}

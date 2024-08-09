@@ -1,0 +1,11 @@
+.parent {
+  display: flex;
+  background-color: #b6ec97;
+}
+
+.restaurantHoverCard {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 14px;
+  padding: 5px;
+}

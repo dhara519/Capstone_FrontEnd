@@ -1,0 +1,50 @@
+.favorite-container {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorites-column {
+  flex: 1;
+  padding: 10%;
+  height: 460px;
+  background-color: #fff;
+}
+
+.favoritePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.favoriteBotao {
+  background-color: #00704a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.favoriteBotao:hover {
+  background-color: #005837;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ccc;
+}
+
+.favorites {
+  flex: 2;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-family: "Playfair Display", serif;
+}
