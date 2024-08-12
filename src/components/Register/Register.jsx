@@ -21,7 +21,7 @@ export default function Register() {
     password: "",
   });
 
-  // Update form state when inputs change
+  // Update form state when inputs changes
   const updateForm = (e) => {
     setForm((prev) => ({
       ...prev,

@@ -30,6 +30,7 @@ const HomePage = () => {
           {" "}
           We are passionate about food and bringing you the best dining
           experiences. Our team of reviewers visits each restaurant to give you
+          
           an authentic taste of what to expect. See what you can book tonight!
         </p> */}
         <YelpSearch />
