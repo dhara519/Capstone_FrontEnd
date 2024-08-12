@@ -7,9 +7,9 @@ const FavoritesApi = api.injectEndpoints({
       query: (obj) => ({
         url: `/api/user/${obj.userId}/favorite_restaurant`,
         method: "POST",
-        // headers: headers || {
-        //   Authorization: `Bearer ${window.sessionStorage.getItem("token")}`,
-        // },
+        headers: {
+          Authorization: `Bearer ${window.sessionStorage.getItem("token")}`,
+        },
         body: obj,
       }),
       invalidatesTags: ["User"],

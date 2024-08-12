@@ -14,7 +14,6 @@ import Logout from "./components/Login/Logout";
 import UserFavorite from "./components/Account/Favorites/userFavorite";
 import Navigation from "./components/Navigations/Navigations";
 
-
 function App() {
   const [location, setLocation] = useState(null);
 
@@ -24,18 +23,18 @@ function App() {
       <Router>
         <Navigation />
         <div className="content">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/Register" element={<Register />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/MapPage" element={<MapPage location={location} />} />
-          <Route path="/Account" element={<Protected />} />
-          <Route path="/UserAccount" element={<UserAccount />} />
-          <Route path="/UpdateUser" element={<UpdateUser />} />
-          <Route path="/accountPage" element={<accountPage />} />
-          <Route path="/UserFavorites" element={<UserFavorite />} />
-          <Route path="/logout" element={<Logout />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/MapPage" element={<MapPage location={location} />} />
+            <Route path="/Account" element={<Protected />} />
+            <Route path="/UserAccount" element={<UserAccount />} />
+            <Route path="/UpdateUser" element={<UpdateUser />} />
+            <Route path="/accountPage" element={<accountPage />} />
+            <Route path="/UserFavorites" element={<UserFavorite />} />
+            <Route path="/logout" element={<Logout />} />
+          </Routes>
         </div>
       </Router>
     </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
@@ -68,6 +69,7 @@ const Carousel = ({ data }) => {
 const YelpSearch = () => {
   const dispatch = useDispatch();
   const { data, loading, error } = useSelector((state) => state.yelp);
+  // eslint-disable-next-line no-unused-vars
   const [location, setLocation] = useState(null);
 
   useEffect(() => {

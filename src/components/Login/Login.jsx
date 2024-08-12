@@ -5,7 +5,6 @@ import "./Login.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
-
 export default function Login() {
   const navigate = useNavigate();
   const [form, setForm] = useState({

@@ -5,7 +5,7 @@ export const fetchYelpData = createAsyncThunk(
   "yelp/fetchYelpData",
   async ({ location, categories }, { rejectWithValue }) => {
     const apiKey =
-      "9QtuvGD5XrRkiKnIuwnVUHNJr3xG20FmEvaszYwbDSaP3Pzw9zdtk36OCIbjheMnM1KAhSTQPBF4P57ms0SzsSySw1jMQHllzuNVOO8PIKDWWdFF-j9REq01Rq6WZnYx";
+      "DharX8QQApAQeX-9kgxPUkBfUn3H_MMKPtCQphXRCT9WlonR1JNeEOIDR66mtJAMe7TdVRuutPzGz_WXQ-hDKXbkFsq-VJE_oCM85ysWiAOYWYy1ist4HnL95GK5ZnYx";
     const url = `https://api.yelp.com/v3/businesses/search?location=${location}&categories=${categories}`;
 
     try {
@@ -26,6 +26,7 @@ export const fetchYelpData = createAsyncThunk(
     }
   }
 );
+// eslint-disable-next-line no-unused-vars
 const storeToken = (state, { payload }) => {
   state.token = payload.token;
   state.isLoggedIn = true;
